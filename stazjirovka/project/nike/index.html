@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike. Just Do It. Nike RU</title>
+    <link rel="stylesheet" href="./style/index.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_nike_principal.jpg"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="header-flex">
+          <img src="./img/nike.png" alt="" />
+          <nav>
+            <ul>
+              <li><a href="./index.html " class="active-link">Главная</a></li>
+              <li><a href="./catalog.html">Каталог</a></li>
+              <li><a href="./about.html">О нас </a></li>
+              <li><a href="./reg.html">Регистрация</a></li>
+            </ul>
+          </nav>
+          <div class="burger__menu">
+            <img src="./img/menu.png" id="menu-open" alt="" />
+          </div>
+
+          <div class="card">
+            <div class="search-box">
+              <input
+                class="search-txt"
+                type="text"
+                name=""
+                placeholder="Поиск"
+              />
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="basket">
+              <div class="basket-hover">
+                <i class="bx bx-basket"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu" id="menu-window">
+        <div class="menu__inner">
+          <div class="menu__content">
+            <div class="menu__close" id="menu-close">
+              <img src="./img/close.png" alt="close" />
+            </div>
+            <div class="menu__nav">
+              <h1><a href="./index.html">Главная</a></h1>
+              <h1><a href="./catalog.html">Каталог</a></h1>
+              <h1><a href="./about.html">О нас </a></h1>
+              <h1><a href="./reg.html">Регистрация</a></h1>
+            </div>
+            <div class="menu__text">
+              <p>
+                © 2021 Nike, Inc. All Rights Reserved<br />
+                <span class="_link-effect"><a href="">Terms of Use</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <img
+          src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_1328,c_limit/a049b9e8-328d-4491-b51d-2416ea58cd37/nike-just-do-it.jpg"
+          alt=""
+        />
+        <p>Blazer Low Platform</p>
+        <h1>ТВОЯ ВЫСОТА</h1>
+        <a href="">Купить</a>
+      </div>
+      <div class="header-text">
+        <h1>Найди свою скорость</h1>
+        <p>
+          Наши самые скоростные кроссовки для ежедневных пробоежек, тренировок и
+          забегов - теперь в новой <br />
+          эффектной расцветке.
+        </p>
+        <div class="header-buttons">
+          <a href="">Купить</a>
+          <a href="">Подобрнее</a>
+        </div>
+      </div>
+    </header>
+    <section id="catalog">
+      <div class="catalog-wrapper">
+        <div class="catalog-text">
+          <p>Подбор экипировки</p>
+        </div>
+        
+        <div class="catalog-card-row" id="catalog_res"></div>
+      </div>
+    </section>
+    <section id="news">
+      <div class="news-wrapper">
+        <div class="news-text">
+          <p>Экипировка для любых погодных условий</p>
+        </div>
+        <div class="news-row">
+          <div class="news-img">
+            <img
+              src="https://static.nike.com/a/images/f_auto/dpr_1.3/w_696,c_limit/6d51236a-2b84-48b1-bcbd-b942e01b48aa/nike-just-do-it.png"
+              alt=""
+            />
+            <p>Модели для тепла</p>
+            <a href="">Купить</a>
+          </div>
+          <div class="news-img">
+            <img
+              src="https://static.nike.com/a/images/f_auto/dpr_1.3/w_696,c_limit/f4e64b04-41cf-4133-856e-5821a8b43cb6/nike-just-do-it.jpg"
+              alt=""
+            />
+            <p>Утепляйся и начниай игру</p>
+            <a href="">Для детей</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="catalog">
+      <div class="catalog-wrapper">
+        <div class="catalog-text">
+          <p>Trending Now</p>
+          <div class="scrollbar">
+            <img src="./img/left-arrow.png" alt="" id="left" />
+            <img src="./img/right-arrow.png" alt="" id="right" />
+          </div>
+        </div>
+        <div class="catalog-scroll" id="slider">
+          <div class="catalog-card-row" id="catalog_res2"></div>
+        </div>
+      </div>
+    </section>
+    <section id="pegasus">
+      <div class="pegasus-wrapper">
+        <div class="pegasus-p">
+          <p>Не пропусти</p>
+        </div>
+        <div class="pegasus-img">
+          <img
+            src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_1313,c_limit/6e1be696-cae2-4415-a9e6-67c63e7369a6/nike-just-do-it.jpg"
+            alt=""
+          />
+         
+        </div>
+        <div class="pegasus-text">
+          <img src="https://static.nike.com/a/images/f_auto/dpr_2.0/w_445,c_limit/3953fbc7-85c9-4eee-b5af-a8c9b8ac4375/nike-just-do-it.png" alt="">
+          <h1>КОЛЛЕКЦИЯ JORDAN  FLIGHT (HER)ITAGE</h1>
+          <p>
+            Элегантные силуэты в классическом стиле Jordan и цветах, которые
+            выдержали <br> испытание временем.</p>
+            <a href="">Купить</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="app">
+      <div class="app-wrapper">
+        <div class="app-p">
+          <p>Познакомисья с нашим приложением</p>
+        </div>
+        <div class="app-row">
+          <div class="app-img">
+            <img
+              src="https://static.nike.com/a/images/f_auto/dpr_1.3/w_696,c_limit/6b68a809-e5fa-4228-85ef-e0db636ce083/nike-just-do-it.jpg"
+              alt=""
+            />
+            <p>Приложение Nike</p>
+            <a href="">Подробнее</a>
+          </div>
+          <div class="app-img">
+            <img
+              src="https://static.nike.com/a/images/f_auto/dpr_1.3/w_696,c_limit/25ab408d-6697-4b17-a80f-47aeeaa6eb32/nike-just-do-it.jpg"
+              alt=""
+            />
+            <p>Приложение Nike Run Club</p>
+            <a href="">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="club">
+      <div class="club-wrapper">
+        <div class="club-text">
+          <p>Давай с нами</p>
+        </div>
+        <div class="club-card">
+          <img
+            src="https://media.discordapp.net/attachments/886547281455767622/897513889820999680/nike-just-do-it.png"
+            alt=""
+          />
+          <h1>ЭТО NIKE КЛУБ</h1>
+          <p>Play New. Play Now.</p>
+          <a href="">Давай с нами</a>
+        </div>
+      </div>
+    </section>
+    <section id="more">
+      <div class="more-wrapper">
+        <div class="more-text">
+          <p>Больше от Nike</p>
+        </div>
+        <div class="more-card-row">
+          <div class="more-card">
+            <img
+              src="https://media.discordapp.net/attachments/886547281455767622/897514161129533450/nike-just-do-it.png"
+              alt=""
+            />
+            <a href="">Мужчины</a>
+          </div>
+          <div class="more-card">
+            <img
+              src="https://media.discordapp.net/attachments/886547281455767622/897514088740032522/nike-just-do-it.png"
+              alt=""
+            />
+            <a href="">Женщины</a>
+          </div>
+          <div class="more-card">
+            <img
+              src="https://media.discordapp.net/attachments/886547281455767622/897513994645016576/nike-just-do-it.png"
+              alt=""
+            />
+            <a href="">Дети</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="nike">
+      <div id="nike-wrapper" class="nike-wrapper">
+        <div id="nike-row">
+          <div id="nike-text">
+            <p id="textjs">Обувь</p>
+            <div id="hidden" class="hidden">
+              <a href=""
+                >Кроссовки и дургая <br />
+                обувь</a
+              >
+              <br />
+              <a href="">Футбольные бутсы</a> <br />
+              <a href="">Беговая обувь </a> <br />
+              <a href="">Обувь для нетбола</a> <br />
+              <a href="">Обувь для гольфа</a> <br />
+              <a href="">Обувь для скейтбординга</a> <br />
+              <a href="">Баскетбольная обувь </a> <br />
+              <a href="">Теннисная обувь</a>
+            </div>
+          </div>
+
+          <div id="nike-text">
+            <p id="textjs">Одежда</p>
+            <div id="hidden2" class="hidden ">
+              <a href="">Вся одежда </a>
+              <br />
+              <a href="">Модели верха</a> <br />
+              <a href="">Брюки и леггинсы </a> <br />
+              <a href="">Спортивыне костюмы</a> <br />
+              <a href="">Худи</a> <br />
+              <a href="">Куртки </a> <br />
+              <a href="">Форма и джерси </a> <br />
+              <a href="">Брюки для йоги</a>
+            </div>
+          </div>
+          <div id="nike-text">
+            <p id="textjs">Для детей</p>
+            <div id="hidden3" class="hidden ">
+              <a href=""
+                >Кроссовки и дургая <br />
+                обувь</a
+              >
+              <br />
+              <a href="">Детские кроссовки </a> <br />
+              <a href="">Детские рюкзаки </a> <br />
+              <a href="">Детские футбоьные бутсы</a> <br />
+              <a href="">Детские беговые кроссовки </a> <br />
+              <a href="">Jordan для детей</a> <br />
+              <a href="">Детские худи </a> <br />
+              <a href="">Детские футболки </a> <br />
+              <a href=""
+                >Детские спортивные <br />
+                костюмы</a
+              >
+            </div>
+          </div>
+          <div id="nike-text">
+            <p id="textjs">Рекомендованное</p>
+            <div id="hidden4" class="hidden ">
+              <a href="">Новинки</a>
+              <br />
+              <a href="">Рюкзаки и сумки </a> <br />
+              <a href="">Футбольные мячи </a> <br />
+              <a href="">Вратарские перчатки</a> <br />
+              <a href="">Черные кроссовки</a> <br />
+              <a href=""
+                >Черные футбольные <br />
+                бутсы</a
+              >
+              <br />
+              <a href="">Большие размеры </a> <br />
+              <a href="">Магазин Factory Store</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-inner">
+        <ul class="footerbar">
+          <li>
+            <h1><a href="">НАЙТИ МАГАЗИН</a></h1>
+          </li>
+          <li>
+            <h1><a href="">ПОДПИСАТЬСЯ НА РАССЫЛКУ</a></h1>
+          </li>
+          <li>
+            <h1><a href="">СТАТЬ ЧЛЕНОМ КЛУБА</a></h1>
+          </li>
+          <li>
+            <h1><a href="">ОБРАТНАЯ СВЯЗЬ</a></h1>
+          </li>
+        </ul>
+        <div class="jopa">
+          <ul class="links">
+            <li>
+              <h1>ПОМОЩЬ</h1>
+            </li>
+            <li><a href="">Статус заказа</a></li>
+            <li><a href="">Доставка</a></li>
+            <li><a href="">Возврат</a></li>
+            <li><a href="">Способ оплаты</a></li>
+            <li><a href="">Связаться с нами</a></li>
+          </ul>
+          <ul class="links">
+            <li>
+              <h1>ПОМОЩЬ</h1>
+            </li>
+            <li><a href="">Статус заказа</a></li>
+            <li><a href="">Доставка</a></li>
+            <li><a href="">Возврат</a></li>
+            <li><a href="">Способ оплаты</a></li>
+            <li><a href="">Связаться с нами</a></li>
+          </ul>
+          <ul class="icons">
+            <li>
+              <a href=""><i class="bx bxl-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="bx bxl-youtube"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="bx bxl-facebook-circle"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="bx bxl-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr class="hr-list" />
+      <div class="russia">
+        <div class="russia-left">
+          <div class="russia-left-icon">
+            <a href=""><i class="bx bxs-location-plus"></i></a>
+            <h3>Россия</h3>
+          </div>
+          <p>© Nike, Inc., 2021. Все права защищены.</p>
+        </div>
+        <ul class="russia-right-list">
+          <li><a href="">Каталог</a></li>
+          <li><a href="">Условия использования</a></li>
+          <li><a href="">Условия продажи</a></li>
+          <li><a href="">О компании </a></li>
+          <li><a href="">Конфедоциальность и файлы cookie</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./script/jquery-3.6.0.min.js"></script>
+    <script src="./script/script.js"></script>
+    <script src="./script/main.js"></script>
+    <script src="./script/catalog.js"></script>
+    <script src="./script/slider.js"></script>
+    <script src="./script/burger.js"></script>
+    <script src="./script/text.js"></script>
+  </body>
+</html>

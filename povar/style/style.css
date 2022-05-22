@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background: url(../img/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+}
+.header-inner{
+    position: relative;
+}
+header::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,.25);
+    position: absolute;
+}
+
+.header-text {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.header-text p {
+    color: #fff;
+    font-family: "Dancing Script", cursive;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.header-text i {
+    color: #fff;
+    font-size: 60px;
+    margin-top: 10%;
+}
+
+.t-lines{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.t-line{
+    width: 44%;
+    height: 1px;
+    background-color: #000;
+}
+
+.cantar-wrapper,
+.menu-wrapper,
+.review-wrapper,
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantar-inner,
+.menu-inner,
+.review-inner,
+.contact-inner {
+    margin-top: 5%;
+    width: 16%;
+}
+.l-text{
+    display: flex;
+    justify-content: center;
+}
+.l-text p:nth-child(1) {
+    color: rgb(197, 53, 0);
+}
+.l-text p {
+    font-family: "Dancing Script", cursive;
+    font-weight: 1000;
+    font-size: 30px;
+}
+.review-inner .l-text p{
+    margin: 0px 5px;
+}
+.review {
+    text-align: center;
+    justify-content: center;
+}
+
+#cook {
+    margin-top: 100px;
+}
+
+.cook-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cook-inner {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.cook {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cook img {
+    width: 500px;
+    height: 300px;
+    margin: 5px 0;
+}
+
+.cook h1 {
+    width: 100%;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.cook p {
+    font-size: 16px;
+    width: 60%;
+    margin: 5px 0;
+}
+
+#food {
+    margin-top: 30px;
+}
+
+.food-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.food-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-txt {
+    text-align: center;
+    padding: 10px;
+}
+
+.food-txt p {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(197, 53, 0);
+}
+
+.foods {
+    border: 5px solid rgb(238, 238, 238);
+    width: 30%;
+}
+
+.food {
+    display: flex;
+    margin-top: 20px;
+}
+
+.food-img img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.food h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.food p {
+    font-size: 14px;
+}
+
+.last-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-inner {
+    margin-top: 5%;
+    width: 16%;
+}
+.last-inner .l-text p, .review-inner .l-text p, .contact-inner .l-text p{
+    font-size: 24px;
+}
+
+#type {
+    margin-top: 2%;
+}
+
+.type-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.types {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    background-color: rgb(65, 65, 65);
+    height: 260px;
+    width: 240px;
+    margin: 20px;
+}
+
+figure img {
+    width: 240px;
+    height: 140px;
+}
+
+figcaption {
+    color: #fff;
+    padding: 10px;
+}
+
+figcaption h1 {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 3px;
+}
+
+figcaption p {
+    font-size: 13px;
+    padding: 3px;
+    color: rgb(129, 129, 129);
+}
+
+#humans {
+    margin-top: 30px;
+}
+
+.comment-wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.comment-text {
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.comments {
+    display: flex;
+}
+
+.comments-txt,
+.comments-txt2 {
+    margin-top: 5%;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.comments-txt2 p:nth-child(1),
+.comments-txt p:nth-child(1) {
+    width: 85%;
+    color: rgb(129, 129, 129);
+}
+
+.comments-txt p:nth-child(2) {
+    margin-left: 80%;
+    color: rgb(197, 53, 0);
+}
+
+.comments-txt2 p:nth-child(2) {
+    margin-left: 63%;
+    color: rgb(197, 53, 0);
+    margin-top: 10px;
+}
+
+.comments i {
+    font-size: 60px;
+    color: rgb(197, 53, 0);
+    margin-top: 3%;
+}
+
+.stars {
+    display: flex;
+    margin-left: 80%;
+    color: rgb(197, 53, 0);
+}
+
+#message {
+    margin-top: 40px
+}
+
+.message-wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.message input{
+    outline: none;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    width: 49%;
+    height: 45px;
+    transition: 0.4s ease all;
+}
+.message input::placeholder{
+    font-size: 14px;
+}
+.message input:hover,.message input:active, .message input:focus{
+    border-color: rgb(70, 70, 70);
+}
+.message textarea:hover,.message textarea:active, .message textarea:focus{
+    border-color: rgb(70, 70, 70);
+}
+.message:nth-child(1) {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.message textarea{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100px;
+    height: 240px;
+    outline: none;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 15px 0 10px 0;
+    font-size: 14px;
+    transition: 0.4s ease all;
+}
+
+.message-inner button{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    font-size: 14px;
+    background-color: transparent;
+    border: 2px solid rgb(160, 160, 160);
+    outline: none;
+    color: rgb(160, 160, 160);
+    border-radius: 5px;
+    transition: 0.4s ease all;
+    cursor: pointer;
+}
+.message-inner button:hover{
+    background-color: rgb(70, 70, 70);
+    color: #fff;
+    border-color: rgb(70, 70, 70);
+}
+.message-inner button:active{
+    background-color: rgb(31, 31, 31);
+    border-color: rgb(31, 31, 31);
+}
+
+#footer {
+    margin-top: 10%;
+    background-color: rgb(255, 68, 0);
+    height: 200px;
+}
+
+.footer-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer-inner {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-flex {
+    display: flex;
+    margin-top: 5%;
+}
+
+.icons {
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+    background-color: rgb(161, 43, 0);
+    padding: 10px;
+}
+.icons i{
+    cursor: pointer;
+    transition: 0.4s ease all;
+}
+.icons:hover i{
+    filter: brightness(50%);
+}
+
+footer p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: #fff;
+}

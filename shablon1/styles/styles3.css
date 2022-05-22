@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300&display=swap');
+html{ 
+  overflow-x:  hidden; 
+}
+.body{
+    font-family: 'Al umni Sans', sans-serif; 
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/* header */
+header {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  } 
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  
+}
+  
+.header-nav ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.header-nav ul li {
+  margin: 0 30px;
+}
+.header-nav ul li:last-child {
+  margin-right: 0px;
+}
+.header-nav ul li a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  left: 320px;
+}
+.header-nav ul li a b{
+  font-size: 20px;
+  
+}
+* {
+    box-sizing: border-box;
+  
+  }
+  .image-box {
+left: 530px;
+    position: relative;
+    width: 600px; 
+    margin: 60px ;
+    display: flex;
+  }
+  .image-box img{
+  border-radius: 10px;
+  width: 0 auto;
+  height: auto;
+  }
+  .image-box .border {
+    position: absolute; 
+    top: 10px;
+    bottom: 10px;
+    left: -220px;
+    right: 10px;
+    border: 2px solid #8700cb;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  .image-box img {
+    display: block;
+    position: relative;
+    right: 235px;
+    width: 600px;
+    height: auto;
+    border-radius: 10px; 
+  }
+  .image-box .image-content {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 60%;
+    padding: 20px;
+    z-index: 2;
+    background: linear-gradient(to bottom, rgba(18,26,63,0.9),#8700cb);
+  }
+  .image-box .image-header {
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+    color: hsl(280, 57%, 80%);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+  }
+  .image-box p {
+    color: rgba(255,255,255,0.9);
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 24px;
+  }

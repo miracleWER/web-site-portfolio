@@ -1,0 +1,33 @@
+#main {
+    width: 40%;
+    height: 40%;
+    border: solid;
+    box-shadow: 5px 5px 5px #888;
+    margin-left: 25%;
+    margin-top: 10%;
+    background-color: teal;
+}
+
+.buttons {
+    margin-left: 25%;
+}
+
+button {
+    box-shadow: 5px 5px 5px #888;
+    margin: 30px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: wheat;
+}
+
+#button {
+    position: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: wheat;
+}

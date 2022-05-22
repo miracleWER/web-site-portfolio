@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/catalog.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/3/36/Logo_nike_principal.jpg"
+    />
+    <title>New Tariners & Gear. Nike RU</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <div class="header-flex">
+          <img src="./img/nike.png" alt="" />
+          <nav>
+            <ul>
+              <li><a href="./index.html " class="active-link">Главная</a></li>
+              <li><a href="./catalog.html">Каталог</a></li>
+              <li><a href="./about.html">О нас </a></li>
+              <li><a href="./reg.html">Регистрация</a></li>
+            </ul>
+          </nav>
+          <div class="burger__menu">
+            <img src="./img/menu.png" id="menu-open" alt="" />
+          </div>
+          <div class="card">
+            <div class="search-box">
+              <input
+                class="search-txt"
+                type="text"
+                name=""
+                placeholder="Поиск"
+              />
+
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="basket">
+              <div class="basket-hover">
+                <i class="bx bx-basket"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu" id="menu-window">
+        <div class="menu__inner">
+          <div class="menu__content">
+            <div class="menu__close" id="menu-close">
+              <img src="./img/close.png" alt="close" />
+            </div>
+            <div class="menu__nav">
+              <h1><a href="./index.html">Главная</a></h1>
+              <h1><a href="./catalog.html">Каталог</a></h1>
+              <h1><a href="./about.html">О нас </a></h1>
+              <h1><a href="./reg.html">Регистрация</a></h1>
+            </div>
+            <div class="menu__text">
+              <p>
+                © 2021 Nike, Inc. All Rights Reserved<br />
+                <span class="_link-effect"><a href="">Terms of Use</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="block">
+      <p>Скрыть по фильтрам</p>
+      <i class="bx bx-slider-alt"></i>
+      <p>Сортировать по</p>
+      <i class="bx bxs-down-arrow"></i>
+    </div>
+    <main>
+      <aside>
+        <ul class="sitebar">
+          <li>
+            <p>Новинки(20)</p>
+          </li>
+          <li><a href="">Обувь</a></li>
+          <li><a href="">Спортивыне бра</a></li>
+          <li><a href="">Боди</a></li>
+          <li><a href="">Футболки</a></li>
+          <li><a href="">Худи и пуловеры</a></li>
+          <li><a href="">Куртки и жилеты</a></li>
+          <li><a href="">Брюки и тайтсы</a></li>
+          <li><a href="">Шорты</a></li>
+          <li>
+            <a href="">
+              Компрессионные <br />
+              модели и базовый <br />
+              слой
+            </a>
+          </li>
+          <li>
+            <a href=""
+              >Спортивыне <br />
+              костюмы</a
+            >
+          </li>
+          <li><a href="">Юбки и платья</a></li>
+          <li><a href="">Носки</a></li>
+          <li><a href="">Аксессуары и снаряжение</a></li>
+        </ul>
+        <hr />
+        <p class="p">Пол</p>
+        <div class="gender"><input type="radio" /><label>Мужчина</label></div>
+        <div class="gender"><input type="radio" /><label>Женщина</label></div>
+        <div class="gender"><input type="radio" /><label>Никто</label></div>
+        <hr />
+        <p class="p">Дети</p>
+        <div class="gender"><input type="radio" /><label>Мальчики</label></div>
+        <div class="gender"><input type="radio" /><label>Девочки</label></div>
+        <hr />
+        <p class="p">Поиск по цене</p>
+        <div class="gender">
+          <input type="radio" /><label>Дешевлье 3790 руб.</label>
+        </div>
+        <div class="gender">
+          <input type="radio" /><label>3790 руб. - 7190 руб.</label>
+        </div>
+        <div class="gender">
+          <input type="radio" /><label>7190 руб. - 9990руб.</label>
+        </div>
+        <div class="gender">
+          <input type="radio" /><label>Дороже 9990 руб.</label>
+        </div>
+        <hr />
+        <p class="p">Спрот</p>
+        <!-- что значит type="radio" -->
+        <div class="gender">
+          <input type="radio" /><label>Спортивный стиль</label>
+        </div>
+        <div class="gender"><input type="radio" /><label>Бег</label></div>
+        <div class="gender"><input type="radio" /><label>Футбол</label></div>
+        <div class="gender"><input type="radio" /><label>Фитнес</label></div>
+        <hr />
+        <p class="p">Бренд</p>
+        <div class="gender">
+          <input type="radio" /><label>Nike Sportswear</label>
+        </div>
+        <div class="gender"><input type="radio" /><label>Jordan </label></div>
+        <div class="gender">
+          <input type="radio" /><label>Nike в твоем стиле</label>
+        </div>
+        <div class="gender"><input type="radio" /><label>NikeLab</label></div>
+        <hr />
+        <p class="p">Icon</p>
+        <div class="gender">
+          <input type="radio" /><label>Air Force 1</label>
+        </div>
+        <div class="gender"><input type="radio" /><label>Air Max</label></div>
+        <div class="gender"><input type="radio" /><label>Blazer</label></div>
+        <div class="gender"><input type="radio" /><label>Brasilia</label></div>
+        <hr />
+        <p class="p">Со скидкой</p>
+        <div class="gender">
+          <input type="radio" /><label>Распродажа</label>
+        </div>
+        <hr />
+        <p>Тип застежки</p>
+        <div class="gender">
+          <input type="radio" /><label>Без застежки</label>
+        </div>
+        <div class="gender"><input type="radio" /><label>Ремешок</label></div>
+        <div class="gender"><input type="radio" /><label>Молния</label></div>
+        <div class="gender">
+          <input type="radio" /><label>Плотная посадка</label>
+        </div>
+        <hr />
+        <p class="p">Виды нагрузки</p>
+        <div class="gender">
+          <input type="radio" /><label>Теплая погода</label>
+        </div>
+        <div class="gender">
+          <input type="radio" /><label>Для влажной погоды</label>
+        </div>
+        <div class="gender">
+          <input type="radio" /><label>Холодная погода</label>
+        </div>
+        <hr />
+        <p class="p">Футбольные клубы</p>
+        <div class="gender">
+          <input type="radio" /><label>ФК "Барселона"</label>
+        </div>
+        <div class="gender">
+          <input type="radio" /><label>Пари Сен-Жермен</label>
+        </div>
+        <div class="gender">
+          <input type="radio" /><label>ФК "Ливерпуль"</label>
+        </div>
+        <div class="gender"><input type="radio" /><label>ФК "Челси</label></div>
+        <hr />
+        <p class="p">Партнер</p>
+        <div class="gender"><input type="radio" /><label>sacai</label></div>
+        <hr />
+        <p class="p">НБА</p>
+        <div class="gender">
+          <input type="radio" /><label>Бостон Селтикс</label>
+        </div>
+        <div class="gender">
+          <input type="radio" /><label>Буркилн Нетс</label>
+        </div>
+        <div class="gender">
+          <input type="radio" /><label>Чикаго Буллз</label>
+        </div>
+        <div class="gender">
+          <input type="radio" /><label>Даллас Мавериск</label>
+        </div>
+      </aside>
+      <section id="products">
+        <div class="products-wrapper">
+          <div class="products-row" id="products_res"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./script/jquery-3.6.0.min.js"></script>
+  <script src="./script/script.js"></script>
+  <script src="./script/scroll.js"></script>
+  <script src="./script/burger.js"></script>
+</html>

@@ -1,0 +1,167 @@
+@media (max-width: 1440px) {
+    .cook img {
+        width: 440px;
+        height: 240px;
+        margin: 5px 0;
+    }
+    .cook p {
+        font-size: 16px;
+        width: 70%;
+        margin: 5px 0;
+    }
+}
+@media (max-width: 1024px) {
+    #cook{
+        margin-top: 60px;
+    }
+    .cook-inner {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .cook{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .cook img {
+        width: 440px;
+        height: 240px;
+        margin: 5px 0;
+    }
+    .cook p {
+        font-size: 16px;
+        width: 70%;
+        margin: 5px 0;
+    }
+
+    .food-wrapper {
+        width: 80%;
+    }
+    .food-img img {
+        width: 80px;
+        height: 80px;
+    }
+    .food h1 {
+        font-size: 14px;
+    }
+    .food p {
+        font-size: 12px;
+    }
+    .last-inner{
+        width: 18%;
+    }
+    .last-inner .l-text p, .review-inner .l-text p, .contact-inner .l-text p{
+        font-size: 20px;
+    }
+
+    .type-wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .types {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 768px) {
+    .cantar-inner,.last-inner, .menu-inner, .review-inner, .contact-inner {
+        width: 24%;
+    }
+    .last-inner .l-text p, .review-inner .l-text p, .contact-inner .l-text p {
+        font-size: 18px;
+    }
+    .food-wrapper {
+        width: 95%;
+    }
+    .food-img img {
+        width: 70px;
+        height: 70px;
+    }
+    .food h1 {
+        font-size: 13px;
+    }
+    .food p {
+        font-size: 11px;
+    }
+    .comment-wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 375px) {
+    header {
+        height: 240px;
+    }
+    .header-text i {
+        font-size: 30px;
+    }
+    .header-text p {
+        font-size: 30px;
+    }
+    .header-wrapper{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .header-text{
+        margin-bottom: 40px;
+    }
+    #cook {
+        margin-top: 20px;
+    }
+    .cook-wrapper {
+        width: 90%;
+    }
+    .cook img {
+        width: 380px;
+        height: 180px;
+    }
+    .cook h1 {
+        font-size: 18px;
+    }
+    .cook p {
+        font-size: 14px;
+    }
+    .food-inner {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .foods {
+        width: 80%;
+        margin: 10px 0px;
+    }
+    figure {
+        background-color: rgb(65, 65, 65);
+        height: 220px;
+        width: 200px;
+        position: relative;
+    }
+    figure img {
+        width: 100%;
+        height: 100px;
+    }
+    .cantar-inner,.last-inner, .menu-inner, .review-inner, .contact-inner {
+        width: 50%;
+    }
+    .last-inner .l-text p, .review-inner .l-text p, .contact-inner .l-text p {
+        font-size: 16px;
+    }
+    .comment-text {
+        font-size: 10px;
+    }
+    .comments-txt, .comments-txt2 {
+        font-size: 14px;
+    }
+    .comments i {
+        font-size: 40px;
+    }
+    .comments{
+        margin-top: 20px;
+    }
+    .message-wrapper {
+        width: 80%;
+    }
+}   
